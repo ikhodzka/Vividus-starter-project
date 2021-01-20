@@ -1,0 +1,17 @@
+Composite: When I establish baselines for each tab
+When I go to the relative URL '/${teamName}/tables'
+When I establish baseline with `TeamTable`
+When I go to the relative URL '/${teamName}'
+When I establish baseline with `Boards` ignoring:
+|ELEMENT                                          |
+|By.xpath(//div[@class="boards-page-layout-list"])|
+When I go to the relative URL '/${teamName}/members'
+When I establish baseline with `Members` ignoring:
+|ELEMENT                                               |
+|By.xpath(//div[@class="org-members-page-layout-list"])|
+When I go to the relative URL '/${teamName}/account'
+When I establish baseline with `Settings`
+When I go to the relative URL '/${teamName}/billing'
+When I establish baseline with `UpgradeTeam` ignoring:
+|ELEMENT|
+|By.xpath(//table)|

@@ -1,2 +1,25 @@
 {
+"A-1":{
+      "type": "Internal",
+      "assertionPattern": "An element.*\\[Expected: exists Actual: does not exist\\]",
+      "scenarioPattern": "Known-issues added",
+      "stepPattern": "When I click on element located .*",
+      "storyPattern": "Trello.*"
+    },
+    
+ "A-2":{
+ 	  "type": "Internal",
+      "assertionPattern": "An element.*\\[Expected: number of elements is a value equal to <1> Actual: <8>\\]",
+      "scenarioPattern": "Known-issues added",
+      "stepPattern": "When I click on element located .*",
+      "storyPattern": "Trello.*"
+    },
+    "A-3":{
+ 	  "type": "Internal",
+      "assertionPattern": "Visual check passed \\[The condition is false\\]",
+      "scenarioPattern": "Known-issues added",
+      "stepPattern": "When I compare against baseline with .*",
+      "storyPattern": "Trello.*"
+    }
+ 
 }
